@@ -4,6 +4,9 @@
 ### Purpose
 The scope of this project was to refactor a VBA code in order to collect stock market data insights presented in data set for the year 2017 and 2018. In this exercise should be established if refactoring the proposed code has improved the execution time of the VBA script.
 
+## Results
+I opened the starter code file in Visual Studio Code, and I have edited it. Below are listed the steps with the description.
+
     '1a) Create a ticker Index
      tickerIndex = 0
 
@@ -55,16 +58,14 @@ The scope of this project was to refactor a VBA code in order to collect stock m
     
     Next i
 
-## Results
-I opened the starter code file in Visual Studio Code, and I have edited it. Below are listed the steps with the description.
+In 2017 there is a positive rate on return on all stocks except Ticker TERP which has a negative return of 7.2%. 
  
 <img src="https://i.ibb.co/P1KmdL1/VBA-Challenge-2017.png" alt="VBA-Challenge-2017" border="0">
 
-In 2017 there is a positive rate on return on all stocks except Ticker TERP which has a negative return of 7.2%. 
+The 2018 year appears to be less successful. There are only 2 Tickers with a positive return on stock: the ENPH with a rate of 81.9%, and the RUN with a rate of 84.0%. The rest of the Tickers experience a negative rate on return on stocks.
 
 <img src="https://i.ibb.co/3mz1bRZ/VBA-Challenge-2018.png" alt="VBA-Challenge-2018" border="0">
 
-The 2018 year appears to be less successful. There are only 2 Tickers with a positive return on stock: the ENPH with a rate of 81.9%, and the RUN with a rate of 84.0%. The rest of the Tickers experience a negative rate on return on stocks.
 Another finding is that the execution time of the refactoring script has decreased in comparison with the execution time of the original script.
 
 ## Summary
