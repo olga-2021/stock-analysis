@@ -15,9 +15,9 @@ The scope of this project was to refactor a VBA code in order to collect stock m
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
     ' If the next row’s ticker doesn’t match, increase the tickerIndex.
     For i = 0 To 11
-    tickerVolumes(i) = 0
-    tickerStartingPrices(i) = 0
-    tickerEndingPrices(i) = 0
+        tickerVolumes(i) = 0
+        tickerStartingPrices(i) = 0
+        tickerEndingPrices(i) = 0
     Next i
 
     ''2b) Loop over all the rows in the spreadsheet.
