@@ -4,13 +4,13 @@
 ### Purpose
 The scope of this project was to refactor a VBA code in order to collect stock market data insights presented in data set for the year 2017 and 2018. In this exercise should be established if refactoring the proposed code has improved the execution time of the VBA script.
 
-'1a) Create a ticker Index
-tickerIndex = 0
+ '1a) Create a ticker Index
+  tickerIndex = 0
 
-'1b) Create three output arrays
-Dim tickerVolumes(12) As Long
-Dim tickerStartingPrices(12) As Single
-Dim tickerEndingPrices(12) As Single
+ '1b) Create three output arrays
+  Dim tickerVolumes(12) As Long
+  Dim tickerStartingPrices(12) As Single
+  Dim tickerEndingPrices(12) As Single
 
 ''2a) Create a for loop to initialize the tickerVolumes to zero.
 ' If the next row’s ticker doesn’t match, increase the tickerIndex.
