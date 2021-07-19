@@ -69,5 +69,5 @@ The 2018 year appears to be less successful. There are only 2 Tickers with a pos
 Another finding is that the execution time of the refactoring script has decreased in comparison with the execution time of the original script.
 
 ## Summary
-The advantages of code refactoring are helping to find bugs, decreasing execution time, improving code readability and reducing complexity. 
-However, there are disadvantages also. Refactoring a code is time consuming. You never know how much time it may take to execute the process. There is also a chance of mistake. 
+Refactoring a code has its advantages such as helping to find bugs, decreasing execution time, improving code readability and reducing complexity. 
+However, there are disadvantages also. Code refactoring is time consuming. You never know how much time it may take to execute the process. There is also a chance of mistakes. 
